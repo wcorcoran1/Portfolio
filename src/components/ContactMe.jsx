@@ -8,10 +8,10 @@ return(
         <div className="contactMe">
         <h1>Contact Me </h1>
         <div>
-        <h2>Phone:</h2>
+        <h2>Phone: (918)448-9160</h2>
         </div>
         <div>
-        <h2>Email:</h2>
+        <h2>Email:wcorcoran1996@gmail.com</h2>
         </div>
         <div>
         <h2>LinkedIn:</h2>

@@ -4,10 +4,16 @@ const About = ()=>{
 
 return(
 
-    <div>
         <div className="about">
-        <h1>About me</h1>
-        <h2>Developer and gamer</h2>
+            <div className="divide">
+                -----
+            </div>
+    <div className="aboutInfo">
+        <h1>
+            My name is Wesley Corcoran,
+        </h1>
+        <p>
+         I am a software engineer, gamer and traveler. I am a Fullstack Academy graduate and I also a bachelor degree from Oklahoma State University. I from small town Oklahoma and I am looking to make the world a better place</p>
          </div>  
     
     </div>

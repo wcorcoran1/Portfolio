@@ -1,16 +1,20 @@
 import React from "react";
-import  ReactDom from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import  ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {Main, NavBar, About, Projects, ContactMe} from './components'
 
+const container = document.getElementById("app");
 
-ReactDom.render(
+const app = ReactDOM.createRoot(container);
+
+app.render(
 <Router>
     <NavBar />
-    <Main />
-    <About />
-    <Projects />
+    <Routes>
+    <Route path="/about"element={<About />}/>
+    <Route path="/projects"element={<Projects />}/>
+    <Route path="/" element={<Main />} />
+    </Routes>
     <ContactMe />
 </Router> ,
-document.getElementById("app")
 );
