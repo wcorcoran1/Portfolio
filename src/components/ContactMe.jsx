@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 const ContactMe = ()=>{
 
@@ -15,6 +16,9 @@ return(
         </div>
         <div>
         <h2>LinkedIn:</h2>
+        </div>
+        <div>
+        <a href="https://github.com/wcorcoran1" >GitHub</a>
         </div>
          </div>  
     

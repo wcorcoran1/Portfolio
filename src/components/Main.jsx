@@ -6,8 +6,7 @@ return(
 
     <div>
         <div className="main">
-        <h1>Hi, I am Wesley Corcoran</h1>
-        <h2>Developer and gamer</h2>
+         <img className="mainImage" src="/Gold Exclusive Royal Luxury Hotel Logo.png" alt="not found" />
          </div>  
     
     

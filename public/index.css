@@ -1,46 +1,73 @@
 #app {
-    background-color: red;
+    height: 100%;
+
 }
 
 .Nav {
-    height:10vmax;
-    background-color: white;
+    height:7vmax;
+    background-color: black;
     display:flex;
     justify-content: space-evenly;
-    
+    color: rgb(255, 215, 0);
+    padding-bottom: 5%;
+}
+.navImage{
+    height: 12vmax;
+
 }
 .link{
-    padding-top: 10px;
-    border: 1px solid black;
-    font-size: 20pt;
+    padding-top: 20px;
+    font-size: 25pt;
+    display: flex;
+    text-decoration: underline;
+    color: rgb(255, 215, 0);
+}
+.main{
+display: flex;
+justify-content: center;
+background-color: black;
 }
 
-.main {
-    height:100vmax;
-}
-
-.about {
-    background-color: crimson;
-    border:black 1px solid;
-    height:100vmax;
-}
-.aboutInfo{
-    display:flex;
-    flex-direction: column;
-    height:20vmax;
-    border:1px solid black;
-    background-color: chartreuse;
+.mainImage {
+    height:35vmax;
+    width: 50vmax;
+    display: flex;
     justify-content: center;
     align-content: center;
 }
 
+.about {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border:black 1px solid;
+    height:100%;
+    width:100%;
+}
+.aboutInfo{
+    display:flex;
+    flex-direction: column;
+    height:30vmax;
+    width: 60%;
+    border:1px solid black;
+    background-color: white;
+    align-self: center;
+}
+
 .projects {
     background-color: purple;
-    border:black 1px solid;
+    border:greenyellow 1px solid;
     height:100vmax
 }
 .contactMe{
     display:flex;
-    background-color: aqua;
+    position: sticky;
+    background-color: black;
+    color: rgb(255, 215, 0);;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 50vmax;
 }
