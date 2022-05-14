@@ -13,7 +13,26 @@ return(
             This project was a group project that showcases our ability to make a FullStack application. 
             GameStart is a E-commerce site that sells video games and gaming accessories.
         </p>
-        <h2 id="project2">Project2</h2>
+        <p>Technologies used</p>
+        <ul>
+        <li>PostgreSQL</li>
+        <li>Express</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>CSS</li>
+        </ul>
+        <button>View Code</button>
+        </div>
+        <div>
+        <h2 id="project2">JuiceBox</h2>
+        <p>Juice box is a backend project that me and a teammate built for class. Juice box was a sorta like a social media backend startup with posts and tags for its users. </p>
+        <p>Technologies used</p>
+        <ul>
+        <li>PostgreSQL</li>
+        <li>Express</li>
+        <li>NodeJs</li>
+        </ul>
+        <button>View Code</button>
         </div>
         
          </div>  

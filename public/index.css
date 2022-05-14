@@ -6,21 +6,17 @@
 .Nav {
     height:7vmax;
     background-color: black;
+    padding-top: 15px;
     display:flex;
     justify-content: space-evenly;
-    color: rgb(255, 215, 0);
+    color: white;
     padding-bottom: 5%;
 }
-.navImage{
-    height: 12vmax;
-
-}
 .link{
-    padding-top: 20px;
     font-size: 25pt;
     display: flex;
     text-decoration: underline;
-    color: rgb(255, 215, 0);
+    color: white
 }
 .main{
 display: flex;
@@ -29,8 +25,9 @@ background-color: black;
 }
 
 .mainImage {
-    height:35vmax;
-    width: 50vmax;
+    height:40vmax;
+    width: 75vmax;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -57,7 +54,7 @@ background-color: black;
 }
 
 .projects {
-    background-color: purple;
+    background-color: white;
     border:greenyellow 1px solid;
     height:100vmax
 }
@@ -65,9 +62,8 @@ background-color: black;
     display:flex;
     position: sticky;
     background-color: black;
-    color: rgb(255, 215, 0);;
+    border: 1px solid red;
+    color: white;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    height: 50vmax;
+    height: 25vmax;
 }

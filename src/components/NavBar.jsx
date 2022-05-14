@@ -7,7 +7,7 @@ return(
 
     <div>
         <div className="Nav">
-        <img className="navImage" src="/Gold Exclusive Royal Luxury Hotel Logo.png" alt="not found" />
+            <h1>WC</h1>
        <Link className="link" to="/about">AboutMe</Link>
        <Link className="link" to="/projects">Projects</Link>
          </div> 
