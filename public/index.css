@@ -11,6 +11,7 @@
     justify-content: space-evenly;
     color: white;
     padding-bottom: 5%;
+    width:100vmax;
 }
 .link{
     font-size: 25pt;
@@ -25,8 +26,8 @@ background-color: black;
 }
 
 .mainImage {
-    height:40vmax;
-    width: 75vmax;
+    height:50vmax;
+    width: 100vmax;
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -55,8 +56,32 @@ background-color: black;
 
 .projects {
     background-color: white;
-    border:greenyellow 1px solid;
+    border:black 1px solid;
+    display: flex;
+    flex-wrap: wrap;
     height:100vmax
+}
+.Project1 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 35vmax;
+    width: 49vmax;
+
+}
+.Project2 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 35vmax;
+    width: 49vmax; 
+}
+.Project3 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 35vmax;
+    width: 49vmax; 
 }
 .contactMe{
     display:flex;
@@ -65,5 +90,6 @@ background-color: black;
     border: 1px solid red;
     color: white;
     flex-direction: column;
-    height: 25vmax;
+    height: 50vmax;
+    width: 100vmax;
 }

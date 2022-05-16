@@ -5,10 +5,10 @@ const Projects = ()=>{
 return(
 
     <div>
-        <div className="projects">
         <h1>Projects</h1>
-        <div>
-        <h2 id="Project1">GameStart</h2>
+        <div className="projects">
+        <div className="Project1">
+        <h2>GameStart</h2>
         <p>This is my final project from my time at FullStack Academy.
             This project was a group project that showcases our ability to make a FullStack application. 
             GameStart is a E-commerce site that sells video games and gaming accessories.
@@ -23,8 +23,8 @@ return(
         </ul>
         <button>View Code</button>
         </div>
-        <div>
-        <h2 id="project2">JuiceBox</h2>
+        <div className="Project2">
+        <h2>JuiceBox</h2>
         <p>Juice box is a backend project that me and a teammate built for class. Juice box was a sorta like a social media backend startup with posts and tags for its users. </p>
         <p>Technologies used</p>
         <ul>
@@ -34,7 +34,20 @@ return(
         </ul>
         <button>View Code</button>
         </div>
-        
+        <div className="Project3">
+        <h2>Stranger Things</h2>
+        <p>
+            An E-commerce site that me and a teammate built that is sorta like craig's list. It has post of sellers of what every it is that they wish to sell.
+        </p>
+        <p>Technologies used</p>
+        <ul>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        </ul>
+        <button>View Code</button>
+        </div>
          </div>  
     
     </div>
