@@ -13,10 +13,16 @@
     padding-bottom: 5%;
     width:100vmax;
 }
+.homeLink {
+    font-size: 25pt;
+    display: flex;
+    text-decoration:none;
+    color: white
+}
 .link{
     font-size: 25pt;
     display: flex;
-    text-decoration: underline;
+    text-decoration:none;
     color: white
 }
 .main{
@@ -26,7 +32,7 @@ background-color: black;
 }
 
 .mainImage {
-    height:50vmax;
+    height:60vmax;
     width: 100vmax;
     padding-top: 10px;
     display: flex;
@@ -90,6 +96,9 @@ background-color: black;
     border: 1px solid red;
     color: white;
     flex-direction: column;
-    height: 50vmax;
+    height: 30vmax;
     width: 100vmax;
+}
+.gitHub {
+    height: 30px;
 }

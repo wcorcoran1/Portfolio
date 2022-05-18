@@ -6,7 +6,7 @@ return(
 
     <div>
         <div className="main">
-         <img className="mainImage" src="/Wesley Corcoran.png" alt="not found" />
+         <img className="mainImage" src="/images/Wesley Corcoran.png" alt="not found" />
          </div>  
     
     
