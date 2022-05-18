@@ -61,7 +61,7 @@ background-color: black;
 }
 
 .projects {
-    background-color: white;
+    background-color: black;
     border:black 1px solid;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@ background-color: black;
     border: 1px solid red;
     height: 35vmax;
     width: 49vmax;
-
+    background-color: white;
 }
 .Project2 {
     display:flex;
@@ -81,6 +81,7 @@ background-color: black;
     border: 1px solid blue;
     height: 35vmax;
     width: 49vmax; 
+    background-color: white;
 }
 .Project3 {
     display:flex;
@@ -88,17 +89,16 @@ background-color: black;
     border: 1px solid blue;
     height: 35vmax;
     width: 49vmax; 
+    background-color: white;
 }
 .contactMe{
     display:flex;
     position: sticky;
+    padding:5px;
+    align-items: center;
     background-color: black;
-    border: 1px solid red;
     color: white;
     flex-direction: column;
     height: 30vmax;
     width: 100vmax;
-}
-.gitHub {
-    height: 30px;
 }

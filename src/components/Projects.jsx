@@ -21,7 +21,7 @@ return(
         <li>React</li>
         <li>CSS</li>
         </ul>
-        <button>View Code</button>
+        <a href="https://github.com/Worker-Bee-Engineering/GameStart">View Code</a>
         </div>
         <div className="Project2">
         <h2>JuiceBox</h2>
