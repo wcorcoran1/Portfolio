@@ -1,0 +1,118 @@
+#app {
+    height: 100%;
+
+}
+
+.Nav {
+    height:7vmax;
+    background-color: black;
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-bottom: 5%;
+    width:100vmax;
+}
+.homeLink {
+    font-size: 25pt;
+    display: flex;
+    text-decoration:none;
+    color: white
+}
+.link{
+    font-size: 25pt;
+    display: flex;
+    text-decoration:none;
+    color: white
+}
+.main{
+display: flex;
+justify-content: center;
+background-color: black;
+}
+
+.mainImage {
+    height:60vmax;
+    width: 100vmax;
+    padding-top: 10px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border:black 1px solid;
+    height:100%;
+    width:100%;
+}
+.aboutInfo{
+    display:flex;
+    flex-direction: column;
+    height:30vmax;
+    width: 60%;
+    border:1px solid black;
+    background-color: white;
+    align-self: center;
+    font-size: 18pt;
+}
+
+.projects {
+    background-color: black;
+    border:black 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height:75vmax
+}
+.Project1 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 39vmax;
+    width: 49vmax;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.Project2 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 39vmax;
+    width: 49vmax; 
+    background-color: white;
+}
+.Project3 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 39vmax;
+    width: 49vmax; 
+    background-color: white;
+    margin-left: 5px;
+}
+.Project4 {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 39vmax;
+    width: 49vmax;
+    background-color: white;
+    margin-left: 5px;
+}
+.contactMe{
+    display:flex;
+    position: sticky;
+    padding:5px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    height: 30vmax;
+    width: 100vmax;
+}
