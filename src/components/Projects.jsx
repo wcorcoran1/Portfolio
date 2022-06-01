@@ -10,7 +10,7 @@ return(
         <div className="Project1">
         <h2>GameStart</h2>
         <p>This is my final project from my time at FullStack Academy.
-            This project was a group project that showcases our ability to make a FullStack application. 
+            This project was built by a team of four that showcases our ability to make a FullStack application. 
             GameStart is a E-commerce site that sells video games and gaming accessories.
         </p>
         <p>Technologies used</p>
@@ -27,7 +27,7 @@ return(
         </div>
         <div className="Project2">
         <h2>JuiceBox</h2>
-        <p>Juice box is a backend project that me and a teammate built for class. Juice box was a sorta like a social media backend startup with posts and tags for its users. </p>
+        <p>Juice box is a backend project that was built in a team of two for class. Juice box was a sorta like a social media backend startup with posts and tags for its users. </p>
         <p>Technologies used</p>
         <ul>
         <li>PostgreSQL</li>
