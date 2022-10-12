@@ -10,11 +10,11 @@ const app = ReactDOM.createRoot(container);
 app.render(
 <Router>
     <NavBar />
+    <ContactMe />
     <Routes>
     <Route path="/about"element={<About />}/>
     <Route path="/projects"element={<Projects />}/>
     <Route path="/" element={<Main />} />
     </Routes>
-    <ContactMe />
 </Router> ,
 );

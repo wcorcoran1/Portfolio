@@ -32,7 +32,7 @@ background-color: black;
 }
 
 .mainImage {
-    height:60vmax;
+    height:70vmax;
     width: 100vmax;
     padding-top: 10px;
     margin-left: 2px;
@@ -107,12 +107,21 @@ background-color: black;
 }
 .contactMe{
     display:flex;
+    align-content:space-between;
+    flex-wrap: wrap;
     position: sticky;
     padding:5px;
-    align-items: center;
     background-color: black;
     color: white;
-    flex-direction: column;
-    height: 30vmax;
+    height: 7vmax;
     width: 100vmax;
+}
+.social{
+    display:flex;
+    padding-left:  40px;
+}
+
+.phone{
+    padding-left: 40px;
+    padding-right:40px;
 }
